@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 async function fetchData(id) {
-  const response = await fetch(`http://localhost:3000/api/posts/${id}`, {
+  const response = await fetch(`https://bunbun.vercel.app/api/posts/${id}`, {
     cache: "no-store",
   });
 
@@ -15,7 +15,7 @@ async function fetchData(id) {
 }
 
 async function fetchPosts() {
-  const response = await fetch("http://localhost:3000/api/posts", {
+  const response = await fetch("https://bunbun.vercel.app/api/posts", {
     cache: "no-store",
   });
 

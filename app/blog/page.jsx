@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 async function fetchData() {
-  const response = await fetch("http://localhost:3000/api/posts", {
+  const response = await fetch("https://bunbun.vercel.app/api/posts", {
     cache: "no-store",
   });
 
