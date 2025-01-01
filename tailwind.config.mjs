@@ -10,6 +10,18 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        scampi: {
+          50: "#f3f5fa",
+          100: "#eaecf5",
+          200: "#d9ddec",
+          300: "#c1c7e0",
+          400: "#a7acd2",
+          500: "#9193c3",
+          600: "#7b79b2",
+          700: "#666397",
+          800: "#56557e",
+          900: "#2b2a3c",
+        },
       },
     },
   },
